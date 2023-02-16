@@ -201,7 +201,12 @@ color: #CAC7CE;
 #cards #card:nth-child(3){
    margin-left: 60px;
 }
-
+#imgM {
+   display: none;
+}
+#imgD {
+   display: block;
+}
 
 
 
