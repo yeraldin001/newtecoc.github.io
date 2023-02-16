@@ -1,4 +1,4 @@
-const hamburger = document.querySelector('#hamburger');
+const hamburger = document.querySelector('#hamburguer');
 const close = document.querySelector('#close');
 const menu = document.querySelector('#menu');
 
@@ -9,7 +9,7 @@ hamburger.addEventListener('click',()=>{
 
 });
 
-hamburger.addEventListener('click',()=>{
+close.addEventListener('click',()=>{
     hamburger.style.display = 'block';
     menu.style.display = 'none';
     close.style.display = 'none';

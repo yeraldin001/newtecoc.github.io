@@ -1,17 +1,15 @@
-@font-face {
+@font-face{
    font-family: 'Inter';
    src: url(../fonts/static/Inter-Regular.ttf);
    font-style: normal;
-   font-weight: normal;
-
+   font-weight: normal;;
 }
 
-@font-face {
+@font-face{
    font-family: 'Inter Bold';
    src: url(../fonts/static/Inter-ExtraBold.ttf);
    font-style: normal;
-   font-weight: normal;
-
+   font-weight: normal;;
 }
 
 *{
@@ -21,54 +19,51 @@
    box-sizing: border-box;
 }
 
-#container{
+#container {
    width: 80%;
 }
 
-#hamburguer, #close{
+#hamburguer, #close {
    display: none;
 }
 
-#container header  {
-
-   display:flex;
+#container header{
+   display: flex;
    height: 180px;
    line-height: 180px;
 }
 
 header #logo{
-   width: 20%
+   width: 20%;
 }
 
-header #menu{
+header #menu {
+   list-style: none;
    width: 80%;
    display: block;
-   list-style: none;
-   text-align: right ;
+   text-align: right;
    line-height: 150px;
 }
 
 #menu li{
    display: inline-block;
    margin-left: 40px;
-
 }
 
-#menu li a {
+#menu li a{
    text-decoration: none;
-   color: #67666D;
+   color: #67666d;
 }
 
-#container #content{
-   width: 100%;
-   min-height:500px;
-   display: flex;
 
+#container #content {
+width: 100%;
+min-height: 500px;
+display: flex;
 }
 
 #content #titular{
    width: 65.8%;
-   
 }
 
 #titular img{
@@ -85,20 +80,20 @@ header #menu{
 }
 
 #text h1{
-   width: 50%;
-   font-size: 60px;
    font-family: 'Inter Bold';
+   width: 50%;
+   font-size: 55px;
    margin-top: 40px;
 }
 
 #text #descripcion{
-   width: 50%;
    margin-top: 40px;
+   width: 50%;
 }
 
 #descripcion p{
-   line-height:25px ;
-   color: #65646a;  
+   line-height: 25px;
+   color: #65646a;
    margin-bottom: 40px;
 }
 
@@ -109,30 +104,29 @@ header #menu{
    text-transform: uppercase;
    letter-spacing: 5px;
    font-weight: 700;
-   background-color: #00001A;
-   color: #EFEFFF;
+   background-color: #00001a;
+   color: #efefff;
 }
 
-#news{
+#content #news{
    margin-left: 30px;
-   background-color: #00001A;
+   background-color: #00001a;
    padding: 30px;
 }
 
-#news h1{
-   color:#eda855 ;
-   font-size: 40px;
-   font-weight: 600;
-}
-
 #news .new{
-   
    padding: 40px 0;
 }
 
+#news h1{
+   color: #eda855;
+   font-size: 40px;
+   font-weight: 900;
+}
+
 #news .new h3{
-   color:#EFEFFF;
    font-family: 'Inter Bold';
+   color: #efefff;
 }
 
 #news .new p{
@@ -141,13 +135,13 @@ header #menu{
 }
 
 #news .new:nth-child(3){
-   border-top: solid 1px #ccc;
-   border-bottom: solid 1px #ccc;
+border-top: solid 1px #ccc;
+border-bottom: solid 1px #ccc;;
 }
 
 #news .new:nth-child(4){
-padding-bottom: 0 ;
-margin-bottom: 0;
+   padding-bottom: 0;
+   margin-bottom: 0;
 }
 
 #cards{
@@ -201,11 +195,13 @@ color: #CAC7CE;
 #cards #card:nth-child(3){
    margin-left: 60px;
 }
-#imgM {
-   display: none;
-}
-#imgD {
+
+#imgD{
    display: block;
+}
+
+#imgM{
+   display: none;
 }
 
 
