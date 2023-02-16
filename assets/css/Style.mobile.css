@@ -1,0 +1,108 @@
+@media screen and (ax-width:480px) {
+    #container{
+        width: 90%;
+    }
+    #container header{
+        line-height: normal;
+        height: 90px;
+    }
+    header #menu {
+        display: none;
+        position:absolute;
+        margin: 0;
+        top: 0;
+        right: 0;
+        height: 700px;
+        width: 70%;
+        background-color: #fff;
+        line-height: normal;
+        padding-top: 150px;
+        padding-left: 30px;
+    }
+    #menu li{
+        text-align: center;
+        display: block;
+        margin-left: 0;
+        height: 60px;
+
+    }
+    #menu li a {
+        color: #211E28;
+    }
+    header #logo{
+        margin: 30px 0;
+        width: 100%;
+        text-align: left;
+
+    }
+    #logo img{
+        height: 30px;   
+    }
+    #hamburger,
+    #close {
+        display: block;
+        position: absolute;
+        top: 35px;
+        right: 5%;
+        z-index: 10;
+    }
+    #close{
+        display: none;
+    }
+    #container #content {
+        display: block;
+    }
+    #content #titular {
+        width: 100%;
+    }
+    #titular #img{
+        height: 300px;
+    }
+    #titular #text{
+        display: block;
+    }
+    #text h1{
+        width: 100%;
+        margin-top: 20px;
+        font-size: 40px;
+    }
+    #text #description{
+        width: 100%;
+        margin-top: 20px;
+    }
+    #description p{
+        margin-bottom: 20px;
+    }
+    #description input[type= "button"] {
+        background-color: #F15D51;
+    }
+    #content #new {
+        margin: 0%;
+        margin-top: 20px;
+        width: 100%;
+    }
+    #cards {
+        display: block;
+    }
+    #cards .card{
+        width: 100%;
+        margin-bottom:30px;;
+        
+    }
+    #cards .card:nth-child(2),
+    #cards.card:nth-child(3) {
+        margin-left: 0px;
+    }
+    .card .info{
+        width: 200px;
+    }
+    .info p {
+    font-size: 14px;
+    }
+    #imgM {
+        display: block;
+    }
+    #imgD {
+        display: none;
+    }
+}
